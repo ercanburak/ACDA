@@ -5,7 +5,7 @@ https://github.com/xycheng/DCFNet/blob/master/calculate_FB_bases.m
 import numpy as np 
 from scipy import special
 import pdb
-from config import *
+from .config import *
 
 def cart2pol(x, y):
     rho = np.sqrt(x**2 + y**2)

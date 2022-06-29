@@ -11,7 +11,7 @@ import scipy as sp
 import scipy.linalg as linalg
 import numpy as np
 import pdb
-from fb import *
+from .fb import *
 from torch.nn.utils import spectral_norm
 
 class Bases_Drop(nn.Module):
